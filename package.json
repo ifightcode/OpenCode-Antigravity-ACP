@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "opencode-agy-acp",
+  "version": "0.1.0",
+  "description": "OpenCode V2 plugin that exposes Google Antigravity (agy acp) as an OpenCode provider",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@ai-sdk/provider": "^3.0.0",
+    "@opencode-ai/plugin": "^1.19.5"
+  }
+}
